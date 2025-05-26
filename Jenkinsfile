@@ -3,6 +3,6 @@
 javaPipeline(
     imageName: 'harishkoppineni/java-hello-app',
     tag: 'latest',
-    dockerCredId: 'Docker_credentials',
+    dockerCredId: 'docker-hub-cred',
     kubeconfigId: 'kubeconfig'
 )
