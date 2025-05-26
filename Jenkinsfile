@@ -1,8 +1,8 @@
 @Library('jenkins-shared-library') _
  
 javaPipeline(
-    imageName: 'yourdockerhubuser/java-hello-app',
+    imageName: 'harishkoppineni/java-hello-app',
     tag: 'latest',
-    dockerCredId: 'docker-hub-cred',
+    dockerCredId: 'Docker_credentials',
     kubeconfigId: 'kubeconfig'
 )
